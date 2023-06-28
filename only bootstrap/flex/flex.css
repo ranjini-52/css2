@@ -1,0 +1,82 @@
+/*
+<576    XS
+576PX   SM
+768PX   MD
+992PX   LG
+1200PX  XL
+1400PX  XXL
+*/
+body{
+    margin-top: 50px;
+}
+body::before{
+    content:'XS';
+    color:orangered;
+    font-size: 30px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+@media(min-width: 576px){
+    body::before{
+        content:'SM';
+    }
+}
+@media(min-width: 768px){
+    body::before{
+        content:"MD";
+    }
+}
+@media(min-width: 992px){
+    body::before{
+        content:'LG'
+    }
+}
+@media(min-width: 1200px){
+    body::before{
+        content:'XL'
+    }
+}
+@media(min-width: 1400px){
+    body::before{
+        content:'XXL'
+    }
+}
+
+/* Bootstrap grid system
+    1.Container
+        1.container
+        2.container-fluid
+        3.container-xxl
+        4.container-xl
+        5.container-lg
+        6.container-md
+        7.container-sm
+        8.container-xs
+    2.rows
+    3.columns 
+        1.col
+        2.col-6      (1-6)
+        3.col-md-6   (xxl,xl,lg,md,sm,xs)
+        4.col-auto
+        5.offset-2   (offset-lg-5) */
+
+
+
+/* row and column */
+
+.sample{
+    background-color: aqua;
+    border:1px solid green;
+    min-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+
+
+

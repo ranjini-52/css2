@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form 2</title>
+	<style>
+		fieldset{
+			width: fit-content;
+		}
+		input{
+			margin-right: 10px;
+			margin-left: 10px;
+			margin-bottom: 20px;
+		}
+		select{
+			margin-left: 10px;
+		}
+	
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Signin</legend>
+<table>
+	<tr>
+		<td>
+			<label for="name">Name:</label></td>
+			<td><input type="text" id="name"></td>
+	</tr>
+	<tr>
+		<td>
+			<label for="pwd">Password:</label>
+		</td>
+		<td><input type="password" id="pwd"></td>
+	</tr>
+	<tr>
+		<td>
+			<label for="gender">Gender:</label>
+		</td>
+		<td>
+			<select name=" " id="gender">
+			<option value="">---select---</option>
+			<option value="">male</option>
+			<option value="">female</option>
+			<option value="">others</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+	<td id="submit"><input type="submit" value="Login"></td>
+	<td><input type="reset" value="Reset"></td>
+</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transitions</title>
+	<style>
+		body{
+			position: relative;
+			left: 35%;
+		}
+		h1{
+			font-style: italic;
+			font-family: sans-serif;
+			width: 300px;
+		}
+		#wish1{
+			background-color: palevioletred;
+			color: ghostwhite;
+		}
+		#wish2{
+			background-color: greenyellow;
+			color: black;
+		}
+		#wish1:hover{
+			background-color: yellow;
+			transition: all 3s linear;
+		}
+		#wish2:hover{
+			background-color: blueviolet;
+			color: black;
+			transition: all 3s ease;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1 id="wish1">HAPPY BIRTHDAY</h1>
+	<h1 id="wish2">HAPPY JOUNEY</h1>
+</body>
+</html>
